@@ -69,6 +69,17 @@ header input {
   gap: 20px;
 }
 
+.stars {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 12px;;
+}
+
+.star {
+  color: #fbbf24;
+  font-size: 16px;
+}
+
 .game-card {
   background-color: #2a2a2a;
   border-radius: 10px;
@@ -95,7 +106,8 @@ header input {
   font-size: 14px;
   color: #aaa;
 }
-main-content {
+
+.main-content {
   flex: 1;
   padding: 20px;
   overflow-y: auto;
@@ -109,7 +121,7 @@ main-content {
 
 .banner-main,
 .extra-image {
-  max-width: 1000px;
+  max-width: 200vh;
   height: 150px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
